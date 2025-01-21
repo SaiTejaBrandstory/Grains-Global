@@ -40,26 +40,26 @@ body {
 }
 
 .btn-login , .btn-login:active{
-    border: 1px solid #A9D18E !important;
-    color: #FFFFFF !important;
-    background-color: #A9D18E !important;
+    border: 1px solid #A9D18E ;
+    color: #FFFFFF ;
+    background-color: #A9D18E ;
 }
 
 .btn-login:hover {
-    border: 1px solid #A9D18E !important;
-    background-color: #000000 !important;
-    color: #A9D18E !important;
+    border: 1px solid #A9D18E ;
+    background-color: #000000 ;
+    color: #A9D18E ;
 }
 
 .btn-signup , .btn-signup:active{
-    border: 1px solid #A9D18E !important;
-    background-color: #000000 !important;
-    color: #A9D18E !important;
+    border: 1px solid #A9D18E ;
+    background-color: #000000 ;
+    color: #A9D18E ;
 }
 
 .btn-signup:hover {
-    background: #A9D18E !important;
-    color: #FFFFFF !important;
+    background: #A9D18E ;
+    color: #FFFFFF ;
 }
 
 .navbar-toggler{
@@ -465,6 +465,7 @@ span{
 
     .sign-in-link {
         text-align: left; 
+        margin: 10px 0;
     }
 
     .text-col-two{
@@ -515,6 +516,27 @@ span{
         font-size: 16px;
         padding: 4px 14px;
     }
+
+    .card-text{
+        max-width: 100%;
+    }
+
+    .crops-section {
+        padding: 20px 0 0;
+    }    
+
+    .image-text-section{
+        margin: 50px 0;
+    }
+
+    .btn-get-started {
+        margin-top: 10px;
+    }
+
+    .hero-image {
+        padding-top: 50px;
+    }
+    
     .py-5{
         padding-bottom: 0px !important;
     }
